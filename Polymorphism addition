@@ -1,0 +1,16 @@
+class Mathematics
+{
+	public static void add(int a,int b)
+	{
+		
+		System.out.println("Sum of two numbers is :"+(a+b));
+	}
+}
+public class Polyadd
+{
+	public static void main(String[] args)
+	{
+		Mathematics m = new Mathematics();
+		  m.add(6, 10);
+	}
+}
